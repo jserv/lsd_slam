@@ -46,6 +46,8 @@ class Output3DWrapper;
 struct LiveSLAMWrapper : public Notifiable
 {
 public:
+	EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+
 	LiveSLAMWrapper(InputImageStream* imageStream, Output3DWrapper* outputWrapper);
 
 	/** Destructor. */
