@@ -45,7 +45,6 @@ set(lsd_SOURCE_FILES
   ${PROJECT_SOURCE_DIR}/Tracking/Sim3Tracker.cpp
   ${PROJECT_SOURCE_DIR}/Tracking/Relocalizer.cpp
   ${PROJECT_SOURCE_DIR}/Tracking/SE3Tracker.cpp
-  ${PROJECT_SOURCE_DIR}/Tracking/least_squares.cpp
   ${PROJECT_SOURCE_DIR}/Tracking/TrackingReference.cpp
   ${PROJECT_SOURCE_DIR}/IOWrapper/Timestamp.cpp
   ${PROJECT_SOURCE_DIR}/GlobalMapping/FabMap.cpp
